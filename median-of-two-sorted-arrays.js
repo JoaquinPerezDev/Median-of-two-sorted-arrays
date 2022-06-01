@@ -2,6 +2,8 @@
 // return the median of the two sorted arrays.
 // Follow up: The overall run time complexity should be O(log(m+n))
 
+// SIDENOTE: comment/uncomment each variation to see how each one works.
+
 // Example 1:
 
 // Inpurt: nums1 = [1,3], nums2 = [2]
@@ -109,7 +111,7 @@ function findMedian(nums1 = [], nums2 = []) {
         return (merged[len/2] + merged[len/2 - 1])/2
     }
 
-// This conditional lets us check is merged is even or odd, to then
+// This conditional lets us check is merged if even or odd, to then
 // find the median for either.  
 }
 
